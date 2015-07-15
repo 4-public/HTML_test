@@ -18,7 +18,8 @@ jQuery(document).ready(function () {
     var btnStyle = {
       border: '1px solid #0798C7',
       color: '#444',
-      backgroundColor: 'white'
+      backgroundColor: 'white',
+      marginRight: '10px'
     };
 
     $("<button id='applyChanges'>Apply changes</button>").css(btnStyle)
