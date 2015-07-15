@@ -1,0 +1,65 @@
+.tab{
+  &-menu{
+    padding: em(15px) 0;
+    font-weight: bold;
+
+    &:after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+  &-item{
+    float: left;
+    margin-right: 25px;
+    a{
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-decoration: none;
+      line-height: em(19px);
+      vertical-align: top;
+      color: $text-color;
+      transition: color .35s;
+    }
+    img{
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    &.active{
+      a{
+        color: $main-color;
+      }
+    }
+    &:hover a{
+      color: $main-color;
+    }
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+#tab2{
+  a, span{
+    color: red;
+  }
+}
+
+#tab3{
+  a, span{
+    color: green;
+  }
+}
+
+#tab4{
+  a, span{
+    color: yellow;
+  }
+}
+
+#tab5{
+  a, span{
+    color: blue;
+  }
+}
