@@ -1,6 +1,6 @@
-## Code example
+## Test code
 
-#### *Technologies applied on this example project:*
+#### *Technologies applied on this test project:*
 * HTML5,
 * SASS preprocessor,
 * JavaScript,
