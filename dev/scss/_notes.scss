@@ -157,6 +157,10 @@
       .delete, .share{
         float: right;
         text-decoration: none;
+
+        &:hover{
+          color: $main-color;
+        }
       }
     }
   }
